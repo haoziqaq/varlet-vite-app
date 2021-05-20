@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./loading.css">
     <title></title>
     <style>
       #wechat-qrcode {
@@ -21,6 +22,13 @@
     </style>
   </head>
   <body>
+    <div id="loading-animation">
+      <div class="loading-container">
+        <div class="loading-item loading-item-1"></div>
+        <div class="loading-item loading-item-2"></div>
+        <div class="loading-item loading-item-3"></div>
+      </div>
+    </div>
     <div id="app"></div>
     <script type="module" src="./src/main.js"></script>
   </body>

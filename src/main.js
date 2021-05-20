@@ -15,6 +15,8 @@ loadComponents(app)
 
 app.mount('#app')
 
+document.body.removeChild(document.getElementById('loading-animation'))
+
 
 
 
