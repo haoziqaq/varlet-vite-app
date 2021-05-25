@@ -114,22 +114,22 @@
     ora "^5.4.0"
     scp2 "^0.5.0"
 
-"@varlet/icons@^0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@varlet/icons/-/icons-0.13.0.tgz#9eae6db7ce3e106afbe895dec38b00eb4e318384"
-  integrity sha512-ByJWDK6cW/RGjAO2THhlMxWLZI2SXxL3ecbUX4gjAwZ6UYJ6Dxad/jIV2ZJZ3PxLt3Yo2z5SPq/4aaJBnzgRlw==
+"@varlet/icons@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@varlet/icons/-/icons-1.0.0.tgz#9cbea6eab9433b09a21e013f9bfdfb854bf97d50"
+  integrity sha512-tmEXdauB95uOdBvC+IGxAagfwwYdiyR6uVIWZt1pySeycbiPVVhZbsbTTo8jwhJVWhun5TIEazZlP25f6aAANA==
   dependencies:
     commander "^6.2.1"
     fs-extra "^9.0.1"
     webfont "^9.0.0"
 
-"@varlet/ui@^0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@varlet/ui/-/ui-0.13.0.tgz#4ebf2e6418633002b9d69b60aae02767677aad33"
-  integrity sha512-h1LXEnycKwCXhIjQLCuD0s7Sj4uqC7XvfNWKcE//Xon3Uz41ZMrxSlb7hkwUNSf6+QtpWATntsaZUAfcJh9Z3g==
+"@varlet/ui@^1.4.5":
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/@varlet/ui/-/ui-1.4.5.tgz#6d99e06db2f89e28d5ed28441d3498f7c6c00342"
+  integrity sha512-o35HVtnqj+y2FM0snnbjlNX57NL9fXTFoc51mGzRpYiv4JeaAMPajlxiG6RvD8yolUFPqBYSJAw/w3pek8pcIQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@varlet/icons" "^0.13.0"
+    "@varlet/icons" "^1.0.0"
     dayjs "^1.10.4"
     decimal.js "^10.2.1"
 

@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@v3utils/axios": "^0.2.1",
-    "@varlet/ui": "^0.13.0",
+    "@varlet/ui": "^1.4.5",
     "dayjs": "^1.10.4",
     "qrcode": "^1.4.4",
     "vue": "^3.0.5",
