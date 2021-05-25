@@ -5,6 +5,12 @@ import { resolve } from 'path'
 import { vueComponentsAutoload, vueRoutesAutoload, vuexModulesAutoload } from '@v3utils/vite-plugins'
 
 export default {
+  resolve: {
+    alias: {
+      '@': resolve('src'),
+      '~': resolve('assets')
+    },
+  },
   css: {
     preprocessorOptions: {
       less: {
