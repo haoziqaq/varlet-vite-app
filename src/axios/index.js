@@ -13,6 +13,10 @@ const responseSuccessInterceptor = (response) => {
 
   !SHOULD_HANDLE_CODES.includes(code) && Snackbar.warning(msg)
 
+  if (code === Codes.WX_AUTH) {
+    // window.location.href = data?.jump ?? ''
+  }
+
   return response
 }
 

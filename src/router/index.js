@@ -20,6 +20,8 @@ router.beforeEach(async (to) => {
     return false
   }
 
+  // await store.dispatch('app/getAppInfo')
+
   setTitle(to)
 })
 
