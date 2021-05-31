@@ -123,10 +123,10 @@
     fs-extra "^9.0.1"
     webfont "^9.0.0"
 
-"@varlet/ui@^1.4.5":
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/@varlet/ui/-/ui-1.4.5.tgz#6d99e06db2f89e28d5ed28441d3498f7c6c00342"
-  integrity sha512-o35HVtnqj+y2FM0snnbjlNX57NL9fXTFoc51mGzRpYiv4JeaAMPajlxiG6RvD8yolUFPqBYSJAw/w3pek8pcIQ==
+"@varlet/ui@^1.4.8":
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/@varlet/ui/-/ui-1.4.8.tgz#910f0f362fc36ebebf9b4d5253b8100507a8898a"
+  integrity sha512-X/68kJhH08ZkbyQ1yZq/N/lto8BBh0bpsKE62KvLtOqiGHeHvkcTk+d7F+b9Tqw1x2j3vOwCJb2XuoGkTE/2tQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@varlet/icons" "^1.0.0"
