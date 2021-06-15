@@ -1,14 +1,14 @@
 import vue from '@vitejs/plugin-vue'
 import legacy from '@vitejs/plugin-legacy'
 import styleImport from 'vite-plugin-style-import'
+import viteComponents from 'vite-plugin-components'
 import { resolve } from 'path'
-import { vueComponentsAutoload, vueRoutesAutoload, vuexModulesAutoload } from '@v3utils/vite-plugins'
+import { vueRoutesAutoload, vuexModulesAutoload } from '@v3utils/vite-plugins'
 
 export default {
   resolve: {
     alias: {
-      '@': resolve('src'),
-      '~': resolve('assets')
+      '@': resolve('src')
     },
   },
   css: {
@@ -23,9 +23,18 @@ export default {
   plugins: [
     vue(),
     legacy(),
-    vueComponentsAutoload(),
     vueRoutesAutoload(),
     vuexModulesAutoload(),
+    viteComponents({
+      globalComponentsDeclaration: true,
+      customComponentResolvers: [
+        (name) => {
+          if (name.startsWith('Var')) {
+            return { importName: name.slice(3), path: '@varlet/ui' }
+          }
+        }
+      ]
+    }),
     styleImport({
       libs: [
         {

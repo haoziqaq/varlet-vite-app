@@ -1,6 +1,6 @@
 <template>
-  <img class="logo" src="../../assets/images/logo.png" alt="">
-  <var-message :msg="msg"/>
+  <img class="logo" src="@/assets/images/logo.png" alt="">
+  <var-message :msg="msg" />
 </template>
 
 <script setup>

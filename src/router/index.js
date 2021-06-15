@@ -15,10 +15,10 @@ const router = createRouter({
 })
 
 router.beforeEach(async (to) => {
-  if (!isWechatBrowser()) {
-    await showWechatQRCode()
-    return false
-  }
+  // if (!isWechatBrowser()) {
+  //   await showWechatQRCode()
+  //   return false
+  // }
 
   // await store.dispatch('app/getAppInfo')
 
