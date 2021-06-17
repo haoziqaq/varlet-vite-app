@@ -1,9 +1,13 @@
 import vue from '@vitejs/plugin-vue'
 import legacy from '@vitejs/plugin-legacy'
-import styleImport from 'vite-plugin-style-import'
 import viteComponents from 'vite-plugin-components'
 import { resolve } from 'path'
 import { vueRoutesAutoload, vuexModulesAutoload } from '@v3utils/vite-plugins'
+
+function kebabCase(key) {
+  const result = key.replace(/([A-Z])/g, ' $1').trim()
+  return result.split(' ').join('-').toLowerCase()
+}
 
 export default {
   resolve: {
@@ -30,18 +34,14 @@ export default {
       customComponentResolvers: [
         (name) => {
           if (name.startsWith('Var')) {
-            return { importName: name.slice(3), path: '@varlet/ui' }
+            const partialName = name.slice(3)
+            return {
+              importName: partialName,
+              path: '@varlet/ui/es',
+              sideEffects: `@varlet/ui/es/${kebabCase(partialName)}/style`
+            }
           }
         }
-      ]
-    }),
-    styleImport({
-      libs: [
-        {
-          libraryName: '@varlet/ui',
-          esModule: true,
-          resolveStyle: name => `@varlet/ui/es/${name}/style/index`,
-        },
       ]
     })
   ]
