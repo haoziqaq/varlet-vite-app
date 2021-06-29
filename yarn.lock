@@ -3402,10 +3402,10 @@ varstream@^0.3.2:
   dependencies:
     readable-stream "^1.0.33"
 
-vite-plugin-components@^0.11.1:
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-components/-/vite-plugin-components-0.11.1.tgz#fc1f38c4087ef8551767a1fa92cbff3edd191f3b"
-  integrity sha512-rApT5gc8hLgIgO4+8xtlt81UD76mUvsTtx44UZViJJGYFr8ofEALlgRn5Fwai1MHbOlWWdOfPMvMa3ooC52COQ==
+vite-plugin-components@^0.11.3:
+  version "0.11.3"
+  resolved "https://registry.yarnpkg.com/vite-plugin-components/-/vite-plugin-components-0.11.3.tgz#8abe283b10440bb3a768ccb373231d6cad50c9c3"
+  integrity sha512-gt8BC5LTNHAbHkTR0s33+/MWZZTA7KnmEiWuC/CZDaSXa7Uu9gGl+l2HWHRB8PDJ5N+TuKmdWXBeVNBoER9EMA==
   dependencies:
     chokidar "^3.5.1"
     debug "^4.3.2"

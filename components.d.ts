@@ -4,7 +4,6 @@
 declare module 'vue' {
   export interface GlobalComponents {
     VarMessage: typeof import('./src/components/VarMessage.vue')['default']
-    VarButton: typeof import('@varlet/ui/es')['Button']
   }
 }
 
