@@ -8,7 +8,7 @@ export default {
   resolve: {
     alias: {
       '@': resolve('src')
-    },
+    }
   },
   css: {
     preprocessorOptions: {
@@ -26,7 +26,7 @@ export default {
     vuexModulesAutoload(),
     viteComponents({
       globalComponentsDeclaration: true,
-      customComponentResolvers: [VarletUIResolver()]
+      customComponentResolvers: VarletUIResolver()
     })
   ]
 }
