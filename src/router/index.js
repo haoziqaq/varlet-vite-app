@@ -1,17 +1,16 @@
-import routes from '@vue-routes'
 import { createRouter, createWebHashHistory } from 'vue-router'
 import { isWechatBrowser, setTitle, showWechatQRCode } from '../utils/routeHooks'
 
-const customRoutes = [
+const routes = [
   {
     path: '/',
     redirect: '/home'
-  }
+  },
 ]
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes: [...routes, ...customRoutes],
+  routes: [...__VITE_PLUGIN_AUTO_ROUTES__, ...routes]
 })
 
 router.beforeEach(async (to) => {
