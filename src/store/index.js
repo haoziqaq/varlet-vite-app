@@ -1,6 +1,5 @@
 import { createStore } from 'vuex'
-import modules from '@vuex-modules'
 
 export default createStore({
-  modules
+  modules: __VITE_PLUGIN_AUTO_MODULES__
 })

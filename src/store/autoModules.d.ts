@@ -1,0 +1,1 @@
+declare const __VITE_PLUGIN_AUTO_MODULES__: any

@@ -93,10 +93,10 @@
     axios "^0.21.1"
     qs "^6.10.1"
 
-"@v3utils/vite-plugins@^0.2.7":
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/@v3utils/vite-plugins/-/vite-plugins-0.2.7.tgz#5828e11cc6499438894f53439bd21a4231d5e176"
-  integrity sha512-qzw2x2uAcQvsc34Yib3zx5Dz5vSXhpMWJrsDUs8ZOHyYNfKrWISSq8CICleM4PNh9oR+RhvSf1dgcGeA1DJPGg==
+"@v3utils/vite-plugins@^0.2.8":
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@v3utils/vite-plugins/-/vite-plugins-0.2.8.tgz#627ee9f2579aa8410815b98bec236bdc19b8bafc"
+  integrity sha512-gHXZaFwrqEp0GIXqs2dMNpqekal/F2nonfGh3g4+lZC0jp7R+tGo1l7pqu9ycaryhyKcSbQWLLWWgPHRVfcUOw==
   dependencies:
     ali-oss "^6.15.2"
     chalk "^4.1.1"
