@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/qihao/.nvm/versions/node/v16.0.0/bin/node /Users/qihao/.nvm/versions/node/v16.0.0/bin/yarn add @v3utils/plugins -D
+  /Users/qihao/.nvm/versions/node/v16.0.0/bin/node /Users/qihao/.nvm/versions/node/v16.0.0/bin/yarn add @varlet/ui/alpha
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/qihao/.nvm/versions/node/v16.0.0/bin:/Users/qihao/.yarn/bin/:/Users/qihao/flutter/bin/
@@ -14,8 +14,8 @@ Platform:
   darwin arm64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@v3utils%2fplugins: Not found
-      at Request.params.callback [as _callback] (/Users/qihao/.nvm/versions/node/v16.0.0/lib/node_modules/yarn/lib/cli.js:66988:18)
+  Error: https://registry.yarnpkg.com/@varlet%2fui/alpha: Request "https://registry.yarnpkg.com/@varlet%2fui/alpha" returned a 405
+      at Request.params.callback [as _callback] (/Users/qihao/.nvm/versions/node/v16.0.0/lib/node_modules/yarn/lib/cli.js:66997:18)
       at Request.self.callback (/Users/qihao/.nvm/versions/node/v16.0.0/lib/node_modules/yarn/lib/cli.js:140662:22)
       at Request.emit (node:events:365:28)
       at Request.<anonymous> (/Users/qihao/.nvm/versions/node/v16.0.0/lib/node_modules/yarn/lib/cli.js:141634:10)
@@ -48,7 +48,7 @@ npm manifest:
       "weixin-js-sdk": "^1.6.0"
     },
     "devDependencies": {
-      "@v3utils/vite-plugins": "^0.2.6",
+      "@v3utils/vite-plugins": "^0.2.8",
       "@vitejs/plugin-legacy": "^1.3.2",
       "@vitejs/plugin-vue": "^1.2.1",
       "@vue/compiler-sfc": "^3.0.5",
@@ -158,10 +158,10 @@ Lockfile:
       axios "^0.21.1"
       qs "^6.10.1"
   
-  "@v3utils/vite-plugins@^0.2.6":
-    version "0.2.6"
-    resolved "https://registry.yarnpkg.com/@v3utils/vite-plugins/-/vite-plugins-0.2.6.tgz#e9e4564d6b1f926fc3451bb91863769e6b9c6da1"
-    integrity sha512-ne2swpAAFHD7BvdlbQonMkxvIlp86WMgXhpI6YwD4fH7XJJuJ/R4jGAXSXGU7kwrlRxnBWfQwy9enfQVfUFXHQ==
+  "@v3utils/vite-plugins@^0.2.8":
+    version "0.2.8"
+    resolved "https://registry.yarnpkg.com/@v3utils/vite-plugins/-/vite-plugins-0.2.8.tgz#627ee9f2579aa8410815b98bec236bdc19b8bafc"
+    integrity sha512-gHXZaFwrqEp0GIXqs2dMNpqekal/F2nonfGh3g4+lZC0jp7R+tGo1l7pqu9ycaryhyKcSbQWLLWWgPHRVfcUOw==
     dependencies:
       ali-oss "^6.15.2"
       chalk "^4.1.1"

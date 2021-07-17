@@ -3,9 +3,13 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    VarActionSheet: typeof import('@varlet/ui')['_ActionSheetComponent']
     VarButton: typeof import('@varlet/ui')['_ButtonComponent']
+    VarDialog: typeof import('@varlet/ui')['_DialogComponent']
+    VarIcon: typeof import('@varlet/ui')['_IconComponent']
     VarMessage: typeof import('./src/components/VarMessage.vue')['default']
     VarStyleProvider: typeof import('@varlet/ui')['_StyleProviderComponent']
+    VarTest: typeof import('@varlet/ui')['_TestComponent']
   }
 }
 

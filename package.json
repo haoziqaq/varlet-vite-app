@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "@v3utils/axios": "^0.2.1",
-    "@varlet/ui": "^1.8.0",
+    "@varlet/ui": "^1.9.4",
     "dayjs": "^1.10.4",
     "qrcode": "^1.4.4",
-    "vue": "^3.0.5",
+    "vue": "3.1.0",
     "vue-router": "4",
     "vuex": "^4.0.0",
     "weixin-js-sdk": "^1.6.0"
@@ -26,6 +26,6 @@
     "less": "^4.1.1",
     "postcss-px-to-viewport": "^1.1.1",
     "vite": "^2.1.5",
-    "vite-plugin-components": "^0.12.0"
+    "vite-plugin-components": "^0.12.2"
   }
 }
