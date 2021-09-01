@@ -1,6 +1,7 @@
 import vue from '@vitejs/plugin-vue'
 import legacy from '@vitejs/plugin-legacy'
-import viteComponents, { VarletUIResolver } from 'vite-plugin-components'
+import viteComponents from 'unplugin-vue-components/vite'
+import { VarletUIResolver } from 'unplugin-vue-components/resolvers'
 import { resolve } from 'path'
 import { vueRoutesAutoload, vuexModulesAutoload } from '@v3utils/vite-plugins'
 
@@ -25,8 +26,8 @@ export default {
     vueRoutesAutoload(),
     vuexModulesAutoload(),
     viteComponents({
-      globalComponentsDeclaration: true,
-      customComponentResolvers: VarletUIResolver()
+      resolvers: [VarletUIResolver()],
+      dts: true,
     })
   ]
 }

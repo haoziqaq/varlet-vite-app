@@ -1,6 +1,8 @@
 <template>
   <img class="logo" src="@/assets/images/logo.png" alt="">
   <var-message :msg="msg" />
+
+  <var-button>123</var-button>
 </template>
 
 <script setup>
